@@ -1,9 +1,8 @@
-const express = require('express');
-const routes = require('./routes');
+import { Router } from 'express';
+import routerWallet from './routerWallet';
 
-const app = express();
-const port = 3000;
+const apiRoutes = new Router();
 
-routes(app)
+apiRoutes.use('/api/v1', routerWallet);
 
-app.listen(port, () => console.log(`Servidor está rodando na porta ${port}`));
+export default apiRoutes;

@@ -21,11 +21,11 @@ module.exports = {
                 allowNull: false,
                 type: Sequelize.DATEONLY
             },
-            // coins: {
-            //     allowNull: false,
-            //     type: Sequelize.STRING,
-            //     references: { model: 'Coins', key: 'coin' }
-            // },
+            coins: {
+                allowNull: false,
+                type: Sequelize.STRING,
+                references: { model: 'Coins', key: 'coin' }
+            },
             createdAt: {
                 allowNull: false,
                 type: Sequelize.DATE
