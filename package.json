@@ -1,0 +1,28 @@
+{
+    "dependencies": {
+        "body-parser": "^1.19.1",
+        "express": "^4.17.2",
+        "mysql2": "^2.3.3",
+        "path": "^0.12.7",
+        "sequelize": "^6.12.5",
+        "sequelize-cli": "^6.3.0"
+    },
+    "name": "desafiocompasswallet",
+    "version": "1.0.0",
+    "description": "desafio da compasso, carteira digital.",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Pedrotb11/DesafioCompassWallet.git"
+    },
+    "author": "Pedro Torres",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Pedrotb11/DesafioCompassWallet/issues"
+    },
+    "homepage": "https://github.com/Pedrotb11/DesafioCompassWallet#readme"
+}
